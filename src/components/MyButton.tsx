@@ -1,5 +1,5 @@
 import React from "react";
-import { Stack, Button, IconButton } from "@mui/material";
+import { Stack, Button, IconButton, ButtonGroup } from "@mui/material";
 import SendIcon from "@mui/icons-material/Send";
 
 const MyButton: React.FC = () => {
@@ -39,13 +39,13 @@ const MyButton: React.FC = () => {
 
       <Stack display={"block"} spacing={2} direction="row">
         <Button variant="contained" size="small">
-          contained
+          small
         </Button>
         <Button variant="contained" size="medium">
-          contained
+          medium
         </Button>
         <Button variant="contained" size="large">
-          contained
+          large
         </Button>
       </Stack>
 
@@ -63,6 +63,13 @@ const MyButton: React.FC = () => {
         <IconButton aria-label="send" size="medium" color="secondary">
           <SendIcon />
         </IconButton>
+      </Stack>
+      <Stack direction="row">
+        <ButtonGroup variant="contained" size="medium" color="error">
+          <Button>left</Button>
+          <Button>center</Button>
+          <Button>right</Button>
+        </ButtonGroup>
       </Stack>
     </Stack>
   );
