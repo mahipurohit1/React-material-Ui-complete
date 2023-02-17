@@ -71,6 +71,18 @@ const MyButton: React.FC = () => {
           <Button>right</Button>
         </ButtonGroup>
       </Stack>
+      <Stack direction="row">
+        <ButtonGroup
+          variant="contained"
+          size="medium"
+          color="success"
+          orientation="vertical"
+        >
+          <Button>left</Button>
+          <Button>center</Button>
+          <Button>right</Button>
+        </ButtonGroup>
+      </Stack>
     </Stack>
   );
 };
