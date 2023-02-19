@@ -1,5 +1,6 @@
 import React from "react";
-import MySelect from "./components/MySelect";
+import MyRadioButton from "./components/MyRadioButton";
+// import MySelect from "./components/MySelect";
 // import MyTextField from "./components/MyTextField";
 // import MyButton from "./components/MyButton";
 // import MyTypography from "./components/MyTypography";
@@ -10,7 +11,8 @@ const App = () => {
       {/* <MyTypography /> */}
       {/* <MyButton /> */}
       {/* <MyTextField /> */}
-      <MySelect />
+      {/* <MySelect /> */}
+      <MyRadioButton />
     </div>
   );
 };
